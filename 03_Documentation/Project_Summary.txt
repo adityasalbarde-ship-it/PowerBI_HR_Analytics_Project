@@ -1,0 +1,87 @@
+# HR Workforce & Attrition Analytics Dashboard
+
+## 1. Project Overview
+This project analyzes employee data to understand workforce distribution, employee attrition, compensation, performance, and attendance. An interactive Power BI dashboard was developed to help HR teams monitor key workforce metrics and make data-driven decisions.
+
+## 2. Project Objectives
+- Analyze total, active, and exited employees.
+- Understand employee attrition across departments, gender, education, and work modes.
+- Compare average salary across departments, job roles, cities, and work modes.
+- Evaluate employee performance and training hours.
+- Analyze employee attendance patterns.
+
+## 3. Tools & Technologies
+- **Microsoft Power BI:** Dashboard development and visualization.
+- **Power Query:** Data cleaning and transformation.
+- **DAX:** Calculated measures and business metrics.
+- **CSV:** Source data format.
+
+## 4. Dataset
+The project uses synthetic HR data organized into multiple CSV files:
+- Employees
+- Departments
+- Locations
+- Roles
+- Performance
+- Attendance
+- Date
+
+The datasets contain employee information, organizational details, salary, hiring and exit dates, performance ratings, training hours, and attendance records.
+
+## 5. Data Cleaning & Preparation
+Data preparation was performed using Power Query:
+- Removed duplicate employee records using Employee_ID.
+- Handled missing Education and Location_ID values.
+- Replaced missing WFH_Days values with zero based on the dataset's assumptions.
+- Corrected data types for dates, numeric columns, and identifiers.
+- Added an Unknown location record to support incomplete location information.
+- Validated row counts and checked the transformed data before loading it into the model.
+
+## 6. Data Modeling
+A relational data model was created using employee, department, location, role, performance, attendance, and date tables.
+
+One-to-many relationships were used where appropriate. Inactive relationships were configured for employee joining and exit dates so that hiring and exit trends could be analyzed separately.
+
+## 7. DAX Measures
+Key measures created include:
+- Total Employees
+- Active Employees
+- Exited Employees
+- Attrition Rate
+- Average Salary
+- Average Age
+- Active Employee Percentage
+- Average Performance Rating
+- Average Training Hours
+- Employees Hired
+- Employees Exited
+- Attendance Rate
+
+## 8. Dashboard Pages
+
+### Page 1: Overview
+Displays workforce KPIs, employee distribution by department and work mode, exits by department, hiring trends, and average salary by department.
+
+### Page 2: Attrition Analysis
+Analyzes employee exits by department, gender, education, and work mode, along with exit trends over time.
+
+### Page 3: Workforce & Compensation
+Explores employee distribution by job role and city, average salary by job role and work mode, and key workforce demographics.
+
+### Page 4: Performance & Attendance
+Analyzes performance ratings, performance category distribution, training hours, and attendance rates.
+
+## 9. Key Skills Demonstrated
+- Data cleaning and transformation
+- Data modeling and relationships
+- DAX measure creation
+- KPI development
+- Interactive dashboard design
+- HR analytics and business metric interpretation
+- Data validation and reporting
+
+## 10. Business Value
+The dashboard provides a consolidated view of workforce information. It can help HR teams identify departments with higher employee exits, compare compensation patterns, monitor attendance, and explore employee performance.
+
+## 11. Project Notes
+The dataset is synthetic and intended for portfolio and learning purposes. Metrics and conclusions should be validated before being used for real business decisions.

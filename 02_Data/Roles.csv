@@ -1,0 +1,26 @@
+Role_ID,Job_Role,Department
+R101,Software Engineer,Engineering
+R102,Senior Software Engineer,Engineering
+R103,Data Analyst,Engineering
+R104,QA Engineer,Engineering
+R105,Engineering Manager,Engineering
+R106,Sales Executive,Sales
+R107,Senior Sales Executive,Sales
+R108,Sales Manager,Sales
+R109,Account Manager,Sales
+R110,Financial Analyst,Finance
+R111,Senior Financial Analyst,Finance
+R112,Finance Manager,Finance
+R113,Accountant,Finance
+R114,HR Executive,Human Resources
+R115,HR Business Partner,Human Resources
+R116,Talent Acquisition Specialist,Human Resources
+R117,HR Manager,Human Resources
+R118,Marketing Executive,Marketing
+R119,Digital Marketing Specialist,Marketing
+R120,Content Specialist,Marketing
+R121,Marketing Manager,Marketing
+R122,Operations Executive,Operations
+R123,Business Analyst,Operations
+R124,Operations Manager,Operations
+R125,Process Specialist,Operations

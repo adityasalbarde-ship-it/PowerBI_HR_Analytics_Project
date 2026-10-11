@@ -1,0 +1,62 @@
+# HR Workforce & Attrition Analytics — Business Insights
+
+## 1. Purpose
+This document records business findings from the HR Workforce & Attrition Analytics Dashboard built in Power BI.
+
+## 2. Metrics Verified So Far
+
+- **Total Employees:** 650 after removing duplicate employee records.
+- **Average Age:** 39.95 years.
+- **Attendance Rate:** 96.47%.
+
+These figures are based on the current project calculations and should be checked again against the final saved dashboard.
+
+## 3. Questions Answered by the Dashboard
+
+### Workforce Overview
+- How many employees are currently active or have exited?
+- Which departments have the largest workforces?
+- How is the workforce distributed across work modes?
+- How has hiring changed over time?
+
+### Attrition Analysis
+- Which departments have the highest numbers of employee exits?
+- How do exits vary by gender and education?
+- How does attrition vary across work modes?
+- How have employee exits changed over time?
+
+### Workforce & Compensation
+- Which job roles have the most employees?
+- How does average salary vary by role, department, city, and work mode?
+
+### Performance & Attendance
+- How are performance categories distributed?
+- How do average performance ratings vary by department?
+- What is the overall attendance rate?
+- How does attendance vary by work mode?
+
+## 4. Business Recommendations
+
+The following are potential actions to consider after reviewing the actual chart results:
+
+1. Investigate departments with comparatively high employee exits.
+2. Review exit patterns over time to identify periods that may need further investigation.
+3. Compare compensation across similar roles before making pay-related decisions.
+4. Review attendance patterns by work mode and investigate meaningful differences.
+5. Examine performance and training results together to identify areas where additional support may be useful.
+
+## 5. Important Interpretation Notes
+
+- The dataset is synthetic, so findings are for demonstration and learning.
+- The current Attrition Rate measure is Exited Employees divided by Total Employees. It represents the overall proportion of employees marked as exited, not the standard annual attrition rate based on average headcount.
+- Differences between groups do not prove that one factor caused employee exits or performance outcomes.
+- Final recommendations should be based on verified dashboard results rather than assumptions.
+
+
+## 6. Final Findings
+
+1. **Workforce Size:** The dataset contains 650 unique employees after duplicate records were removed.
+2. **Average Age:** The average employee age is 39.95 years.
+3. **Attendance:** The overall attendance rate is 96.47%.
+4. **Department Attrition:** The Engineering department recorded the highest number of exited employees, with 12 exits. This department may warrant further investigation to understand the reasons behind employee departures.
+5. **Hiring Trend:** The highest number of hires occurred in 2024, with 74 employees hired. This indicates that 2024 was the strongest hiring year in the dataset.

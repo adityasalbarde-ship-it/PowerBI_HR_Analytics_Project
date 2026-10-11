@@ -1,0 +1,9 @@
+Location_ID,City,State,Work_Mode
+L01,Mumbai,Maharashtra,Hybrid
+L02,Pune,Maharashtra,Hybrid
+L03,Bengaluru,Karnataka,Office
+L04,Hyderabad,Telangana,Hybrid
+L05,Delhi,Delhi,Office
+L06,Chennai,Tamil Nadu,Office
+L07,Ahmedabad,Gujarat,Remote
+L08,Nagpur,Maharashtra,Hybrid
